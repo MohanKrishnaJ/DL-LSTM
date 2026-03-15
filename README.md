@@ -233,7 +233,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ## Loss Vs Epoch Plot
 
-![image alt](https://github.com/SajenMurali/DL-LSTM/blob/5e1c79c7be96eb42d7801bdea391ddbb9c39b899/Screenshot%202026-03-15%20223448.png)
+![image alt](https://github.com/MohanKrishnaJ/DL-LSTM/blob/ca7bf6079a58484346e9c9c1049df40d4bc3297b/Screenshot%202026-03-16%20021524.png)
 
 ### Sample Text Prediction
 ![image alt](https://github.com/SajenMurali/DL-LSTM/blob/5e1c79c7be96eb42d7801bdea391ddbb9c39b899/Screenshot%202026-03-15%20223424.png)
