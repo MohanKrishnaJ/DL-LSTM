@@ -199,8 +199,8 @@ train_losses, val_losses = train_model(model, train_loader, test_loader, loss_fn
 evaluate_model(model, test_loader, X_test, y_test)
 
 # Plot loss
-print('Name: Pragatheeshraaj D')
-print('Register Number: 212224230199')
+print('Name: Sajen Murali')
+print('Register Number: 212223220089')
 history_df = pd.DataFrame({"loss": train_losses, "val_loss": val_losses})
 history_df.plot(title="Loss Over Epochs")
 plt.xlabel("Epoch")
@@ -216,8 +216,8 @@ output = model(sample)
 preds = torch.argmax(output, dim=-1).squeeze().cpu().numpy()
 true = y_test[i].numpy()
 
-print('Name:                 ')
-print('Register Number:     ')
+print('Name:     Sajen Murali         ')
+print('Register Number:  212223220089')
 print("{:<15} {:<10} {}\n{}".format("Word", "True", "Pred", "-" * 40))
 for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
     if w_id.item() != word2idx["ENDPAD"]:
@@ -233,10 +233,10 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ## Loss Vs Epoch Plot
 
-<img width="1174" height="630" alt="image" src="https://github.com/user-attachments/assets/71d1f48e-f33b-43fa-a841-f2850d6d0d70" />
+![image alt](https://github.com/SajenMurali/DL-LSTM/blob/5e1c79c7be96eb42d7801bdea391ddbb9c39b899/Screenshot%202026-03-15%20223448.png)
 
 ### Sample Text Prediction
-<img width="1149" height="501" alt="image" src="https://github.com/user-attachments/assets/b3e906d4-daef-44d4-ba94-fa62ee305fde" />
+![image alt](https://github.com/SajenMurali/DL-LSTM/blob/5e1c79c7be96eb42d7801bdea391ddbb9c39b899/Screenshot%202026-03-15%20223424.png)
 
 
 ## RESULT
