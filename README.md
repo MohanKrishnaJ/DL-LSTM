@@ -4,7 +4,11 @@
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement
-Develop a deep learning model using LSTM to perform Named Entity Recognition (NER) on text data. Preprocess the dataset by tokenizing text and encoding words and labels. Train and evaluate the model to accurately identify entities such as names, locations, and organizations.
+Develop a deep learning model using Long Short-Term Memory (LSTM) networks to perform Named Entity Recognition (NER) on text data.
+Preprocess the dataset by tokenizing sentences, converting words into numerical representations, and encoding entity labels using techniques like one-hot encoding or label indexing.Apply padding to ensure all input sequences have equal length and use word embeddings (such as Word2Vec or GloVe) to capture semantic meaning.
+Design an LSTM-based architecture with embedding, LSTM, and dense output layers to classify each token into its corresponding entity category.
+Train the model using an appropriate loss function like categorical cross-entropy and optimize it with algorithms such as Adam for better convergence.
+Evaluate the model’s performance using metrics like accuracy, precision, recall, and F1-score to ensure it effectively identifies entities like names, locations, and organizations.
 
 ## Theory
 Named Entity Recognition (NER) is a fundamental task in Natural Language Processing (NLP) that involves identifying and classifying entities such as person names, locations, and organizations within text. Long Short-Term Memory (LSTM) networks, a type of Recurrent Neural Network (RNN), are widely used for this purpose because they can capture long-term dependencies in sequential data. In this approach, the input text is first tokenized and converted into numerical representations using word embeddings. The LSTM model then processes the sequence of words and learns contextual relationships to assign appropriate entity labels to each word. This method enhances the accuracy of entity recognition by effectively utilizing contextual information present in sentences.
